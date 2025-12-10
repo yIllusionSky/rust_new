@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  rust_new:
+    build: .
+    image: rust_new:latest
+    command: ["rust_new"]

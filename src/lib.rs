@@ -18,6 +18,7 @@ pub fn fibonacci_sequence(length: usize) -> Vec<u64> {
         return Vec::new();
     }
 
+    
     let mut sequence = Vec::with_capacity(length);
     sequence.push(0);
 
